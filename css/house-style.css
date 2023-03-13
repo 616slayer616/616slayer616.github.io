@@ -27,3 +27,12 @@ img {
   width: 50%;
   margin-top: 5pt;
 }
+#footer {
+  padding-top: 15pt;
+  padding-bottom: 15pt;
+  font-size: 12px;
+}
+#footer a {
+	text-decoration: none;
+    color: #ffffff;
+}

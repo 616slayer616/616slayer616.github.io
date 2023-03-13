@@ -1,0 +1,145 @@
+@font-face {
+	font-family: "Poppins-Regular";
+	src: url("Poppins-Regular.ttf");
+}
+body {
+	font-family: Poppins-Regular;
+	font-size: 50px;
+	color: #eee;
+	margin: 0;
+	background: #222;
+    background: #1E306A;
+	min-height:100%;
+}
+html {
+	height: 500px;
+}
+.spacer {
+	height: 10px;
+	background: #222;
+}
+.box {
+	margin:0.5%;
+	padding:1%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	line-height: 1.1em;
+	letter-spacing: 0.05em;
+}
+.no-margin-bottom {
+	margin-bottom: 0;
+}
+.no-padding-top {
+	padding-top: 0;
+}
+.grey-bgr {
+	background: #222;
+}
+#picture {
+	border-radius:100%;
+	width:200px;
+	box-shadow: 0px 0px 5px 1px #444;
+}
+.highlight {
+	color:#0088ff;
+	font-weight:800;
+}
+p {
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.8em;
+	max-width: 600px;
+}
+.small {
+	font-size: 30px;
+}
+.xsmall {
+	font-size: 12px;
+}
+.xtiny {
+	font-size: 7px;
+	line-height: 2em;
+}
+.tiny {
+	font-size: 8px;
+	line-height: 2em;
+}
+.tiny-tab {
+	display: inline-block;
+	width: 16px;
+}
+.l-width {
+	max-width: 650px;
+}
+#columns {
+	justify-content: center;
+	padding-top: 3%;
+}
+.center {
+	margin: 0 auto;
+	display: block;
+}
+.smb {
+	height:64px;
+	width:64px;
+	cursor: pointer;
+	background-color: black;
+	border-radius: 32px;
+}
+a {
+	text-decoration: none;
+	color: #eee;
+}
+h1, h2, h3, h4 {
+	line-height: normal;
+	text-align: left;
+	max-width: 600px;
+	margin: 10 auto 10;
+}
+.left {
+	text-align: left;
+}
+ul {
+	text-align: left;
+	max-width: 600px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: normal;
+}
+#footer {
+	font-size: 12px;
+}
+#imprint-link, #privacy-link {
+	font-size: 12px;
+}
+#imprint, #privacy {
+	background: #222;
+	font-size: 12px;
+}
+#imprint p {
+	font-size: 16px;
+	text-align: left;
+	line-height: 1.8em;
+	max-width: 600px;
+}
+.btn-g, .btn-x, .btn-l {
+	display: inline-flex;
+	width: 64px;
+	transition: width 0.35s;
+	font-size:0;
+	margin: 0;
+	padding: 0;
+	color: #eee;
+	border-radius: 32px;
+	line-height: 2.7;
+}
+.h-space {
+	display:inline-block;
+	margin-left:5px
+}
+@media (max-width:1000px) {
+	#picture {
+		width:150px;
+	}
+}

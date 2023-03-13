@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "Poppins-Regular";
+	src: url("Poppins-Regular.ttf");
+}
+body {
+	font-family: Poppins-Regular;
+	font-size: 50px;
+	color: #eee;
+	margin: 0;
+	background: #222;
+	min-height:100%;
+}
+html {
+	height: 500px;
+}
+a {
+	text-decoration: none;
+    color: #0088ff;
+}
+.no-highlight {
+	color: #eee;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 5pt;
+}
